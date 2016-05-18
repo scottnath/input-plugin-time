@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * Time Input Plugin
  *
