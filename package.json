@@ -1,5 +1,6 @@
 {
   "name": "input-plugin-time",
+  "version": "0.0.0",
   "description": "Simple Time Input Type",
   "main": "index.js",
   "scripts": {
