@@ -1,4 +1,4 @@
-Time Input Plugin [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+Time Input Plugin [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage Status](https://coveralls.io/repos/github/punchcard-cms/input-plugin-time/badge.svg?branch=master)](https://coveralls.io/github/punchcard-cms/input-plugin-time?branch=master) 
 ---
 
 Simple Time Input Type
