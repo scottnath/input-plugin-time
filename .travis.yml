@@ -6,15 +6,14 @@ cache:
   directories:
   - node_modules
 before_script:
-  - npm prune
+- npm prune
 after_success:
-  - npm run coverage
-  - npm run semantic-release
+- npm run coverage
+- npm run semantic-release
 branches:
   except:
-    - /^v\d+\.\d+\.\d+$/
-#########################
-## Notifications
-#########################
+  - /^v\d+\.\d+\.\d+$/
 notifications:
   email: false
+  slack:
+    secure: LFVJxRs+r9DPCOZ9DvpL+7nPzde4zxRPq2vfY35LtkyL5B9vhm6L5O7+i7y3Tb6l90ZoP664b3fQEwxz3kZRzbRAwrWCRFhzoyVxFpJt8bUu4DIC8uV+edDir/DH4lBKHKfGQwD7Wp8VKpheCapZyNpGQ6n6Wvo2Z3aM5bW8/0+BvYEMU0rQiE1e8CMotLMi/Syu/tgY+mxcQA9xMuCl/VICWzoFSdf7vQTQjxGEiNNkOMNWl0kW1GXQoReN270+ViOB5lacWkoeBNfJfixNyk55y3SeruVAxDjPxOa8G1aC1WQvj28if615hVxxaGv2rkWXKJo2af9WSxCkNO58Sa6l2sa+2D66LnXjAz1vpKktnb6cNNXPEp4iw6CbIeXuEoYG//EKakkmBQNRswI/IcHufDvuDOAYBb5p2fMAPyWSrLesxr2Hh8rD6WuWwPfShw4mdiDV8LwOlaT+iIVdd4q40wUHC7aRhk+9mSBJ+Ntm6a7R2u9hFm/0A44VJW1IEJm38eARWYYdtNSlEPXIR8VBNexSIShpxfa1zgMc30GxPmJRZrtN1+1gJKhXYm2wcDyumoBTDnMJmz8jUOTNit0Iy4yVVKid3iMDajqCu9EdIvthzeYKqUp92EyhhQkLNWcdG5XhHTEc1nhFhddUuxe7GLi/RZP8DWvk0+uRJPM=
