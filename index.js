@@ -26,9 +26,6 @@ module.exports = {
       },
       label: 'Choose a Time',
       type: 'time',
-      settings: {
-        empty: true,
-      },
     },
   },
   html: '<label for="{{time.id}}">{{time.label}}</label><input type="{{time.type}}" id="{{time.id}}" name="{{time.name}}" value="{{time.value}}" type="time"/>',
